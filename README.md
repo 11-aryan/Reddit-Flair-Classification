@@ -6,8 +6,6 @@ In this project, a comparative data analysis using existing Machine Learning and
 Data analysis was done on the data using different features and a pipeline of various natural language processing techniques like *Count Vectorization* and *Tfldf Transformation*, and various machine learning techniques like , *Decision Tree, Support Vector Machines (SVM), Logistic Regression, Naive-Bayes, pretrained BERT*, was used to research on the data, and classify the flairs
 <br>
 <br>
-<br>
-<br>
 Link to the web app: https://flairclassifierreddit.herokuapp.com/<br>
 (If the page shows error wait for sometime and reload the page)
 
