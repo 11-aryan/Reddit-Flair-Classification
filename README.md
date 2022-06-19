@@ -7,6 +7,7 @@ Data analysis was done on the data using different features and a pipeline of va
 
 
 Link to the web app: https://flairclassifierreddit.herokuapp.com/
+(If the page shows error wait for sometime and reload the page)
 
 <img src="Images/flairClassifier.png" width="650">
 
