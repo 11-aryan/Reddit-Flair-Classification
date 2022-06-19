@@ -30,6 +30,8 @@ scikit-learn==0.22.2.post1
 
 ### Description of Jupyter Notebooks
 [Flair_Classification_1_Generating_Data.ipynb](https://github.com/11-aryan/Reddit-Flair-Classification/blob/main/Flair_Classification_1_Generating_Data.ipynb) : Contains the code to extract data from Reddit with PRAW and create the dataset.
+
 [Flair_Classification_2_Training.ipynb](https://github.com/11-aryan/Reddit-Flair-Classification/blob/main/Flair_Classification_2_Training.ipynb): Contains EDA and the comparison of the performances of different models on the data.
+
 [Flair_Classification_BERT.ipynb](https://github.com/11-aryan/Reddit-Flair-Classification/blob/main/Flair_Classification_BERT.ipynb): Using pretrained BERT from tensorflow hub.
 
