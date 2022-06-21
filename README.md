@@ -35,4 +35,25 @@ scikit-learn==0.22.2.post1
 [Flair_Classification_2_Training.ipynb](https://github.com/11-aryan/Reddit-Flair-Classification/blob/main/Flair_Classification_2_Training.ipynb): Contains EDA and the comparison of the performances of different models on the data.
 
 [Flair_Classification_BERT.ipynb](https://github.com/11-aryan/Reddit-Flair-Classification/blob/main/Flair_Classification_BERT.ipynb): Using pretrained BERT from tensorflow hub.
+n
+<br>
+<br>
+### Generating the dataset
+The data was generated using **PRAW** (Python Reddit API warpper) to extract data from reddit posts followed by text preprocessing.
+There might be many types of flairs, but the **13** *most common flairs* are used to train the data to avoid class imbalance. The final data has **100** samples of each flair, and a total of **1120** records.
 
+Here's a sample of the data:
+<img src="Images/rfsampleData.png">
+
+
+### Training Results
+The following accuracy was obtained with different models:
+* Linear Regression: **0.5090**
+* Support Vector Machine:**0.5060**
+* Naive Bayes: **0.4818**
+* Decision Tree: **0.4909**
+* Random Forest: **0.5242**
+
+*Random Forest* performed slightly better than others, but the accuracy is still quite low. 
+<br>
+Using **BERT** to train on the text embeddings obtained from *Universal Sentence Encoder* from tensorflow hub significantly improved the accuracy to **0.7095**
